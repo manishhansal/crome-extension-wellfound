@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Job Apply On Wellfound",
+    "version": "1.0",
+    "description": "Job Apply On Wellfound",
+    "permissions": ["activeTab"],
+    "background": {
+      "scripts": ["content_script.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_popup": "index.html"
+    }
+  }
+  
